@@ -1,0 +1,91 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #4fc9fa;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  .img-container {
+    text-align: center;
+  }
+  
+  .img-container img {
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+  }
+  .title-word {
+    text-align: center;
+  }
+  #testing div {
+    margin-left: 10px;
+  }
+  .image-and-text {
+    
+    display: flex; /* Нахуй, используем Flexbox, чтобы выровнять элементы, сука */
+    align-items: center; /* Ёбаные элементы будут выровнены по вертикали */
+  }
+  .image-and-text img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .text-content {
+    margin-left: 15px; /* Отступ от изображения, мудила */
+  }
+  .text-content h2 {
+    color: #ff8710;
+    font-size:30px;
+  }
+  .text-content p {
+    color: #333;
+    font-size:20px;
+  }
+
+  #code-block {
+    width: 50%;
+    background-color: #65d1fc; /* цвет фона для блока с кодом */
+    padding: 20px; /* внутренний отступ для блока с кодом */
+    margin: 0 auto; /* центрируем блок с кодом на левой половине экрана */
+  }
+  
+  #code-block code {
+    white-space: pre-wrap; /* сохраняем переносы строк и отступы */
+    font-family: monospace; /* устанавливаем моноширинный шрифт для кода */
+  }
+  #example h2{
+    text-align: center;
+    padding-top: 50px;
+    size:100px;
+  }
+  
+  
