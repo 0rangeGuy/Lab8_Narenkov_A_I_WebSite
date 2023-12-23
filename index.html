@@ -33,22 +33,23 @@
       <h2>Class Example</h2>
       <div id="code-block">
         <code id='testing'>
-            <div>
-            class Car:<br>
-            <div>
-            def __init__(self, make, model, year):<br>
-            <div>
-                self.make = make<br>
-                self.model = model<br>
-                self.year = year<br>
-                <br></div>
-            def display_info(self):<br>
-            <div>
-                return f"{self.year} {self.make} {self.model}"<br>
-                <br></div></div>
-            my_car = Car("Toyota", "Corolla", 2022)<br>
-            print(my_car.display_info())<br>
-            </div>
+class Car:
+
+def __init__(self, make, model, year):
+
+    self.make = make
+
+    self.model = model
+
+    self.year = year
+
+def display_info(self):
+
+    return f"{self.year} {self.make} {self.model}"
+
+my_car = Car("Toyota", "Corolla", 2022)
+
+print(my_car.display_info())
         </code>
       </div>
 
@@ -56,40 +57,42 @@
         <h2>Function Example</h2>
         <div id="code-block">
           <code id='testing'>
-              <div>
-                def calculate_total_cost(price, quantity, tax_rate):<br>
-                    <div>
-                    subtotal = price * quantity<br>
-                    tax_amount = subtotal * tax_rate<br>
-                    total_cost = subtotal + tax_amount<br>
-                    return total_cost<br>
-                    </div>
-                total = calculate_total_cost(10, 5, 0.08)<br>
-                print("Общая стоимость покупки:", total)<br>
-              </div>
+def calculate_total_cost(price, quantity, tax_rate):
+
+    subtotal = price * quantity
+
+    tax_amount = subtotal * tax_rate
+
+    total_cost = subtotal + tax_amount
+
+    return total_cost
+
+total = calculate_total_cost(10, 5, 0.08)
+
+print("Общая стоимость покупки:", total)
           </code>
         </div>
-
         <div id="example">
             <h2>Creating Array Example</h2>
             <div id="code-block">
               <code id='testing'>
-                  <div>
-                matrix = [
-                <div>
-                    [1, 2, 3],
-                    [4, 5, 6],
-                    [7, 8, 9]]
-                </div>
-                for row in matrix:
-                    <div>
-                    for elem in row:
-                        <div>
-                        print(elem, end=' ')
-                        </div>
-                    print()
-                    </div>
-                  </div>
+matrix = [
+                
+  [1, 2, 3],
+                
+  [4, 5, 6],
+                
+  [7, 8, 9]
+                
+  ]
+
+for row in matrix:
+                
+  for elem in row:
+                
+    print(elem, end=' ')
+                
+  print()
               </code>
             </div>
 
@@ -97,7 +100,12 @@
     </div>
   </main>
   <footer>
-    <p>&copy; 2022 Your Name</p>
+    <p>&copy; 2022 Arbuz_36@mail.ru</p>
   </footer>
+      
+<div id="main"></div>
+<script src="scripts.js"></script>
+
+      
 </body>
 </html>
