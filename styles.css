@@ -76,6 +76,9 @@ body {
     background-color: #65d1fc; /* цвет фона для блока с кодом */
     padding: 20px; /* внутренний отступ для блока с кодом */
     margin: 0 auto; /* центрируем блок с кодом на левой половине экрана */
+    
+    border:3px #138ab9  solid;
+    border-radius:20px;
   }
   
   #code-block code {
@@ -87,5 +90,67 @@ body {
     padding-top: 50px;
     size:100px;
   }
+  #main {
+  padding-top:30px;
+  padding-left:20px;
+}
+  .blog {
+  background-color: #65d1fc;
+  border:3px #138ab9  solid;
+  border-radius:20px;
+  padding:20px;
+  margin:10px;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .header {
+    padding: 10px; /* Уменьшаем внутренний отступ */
+  }
+
+  .navbar a {
+    padding: 8px 10px; /* Уменьшаем внутренний отступ ссылок в навигационном меню */
+  }
+
+  .content {
+    padding: 10px; /* Уменьшаем внутренний отступ контента */
+  }
+
+  .footer {
+    padding: 10px; /* Уменьшаем внутренний отступ подвала */
+  }
+
+  .img-container img {
+    width: 80%; /* Изображения займут всю доступную ширину */
+  }
+
+  .image-and-text {
+    flex-direction: column; /* Элементы будут располагаться вертикально */
+    align-items: center; /* Выравнивание элементов слева */
+    padding-top:100px;
+  }
+  
+  .image-and-text img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .text-content {
+    padding-top:100px;
+  }
+
+  #code-block {
+    width: 100%; /* Блок с кодом будет занимать всю доступную ширину */
+    padding: 10px; /* Уменьшаем внутренний отступ блока с кодом */
+    margin: 0; /* Убираем внешние отступы блока с кодом */
+  }
+    #code-block code {
+    white-space: pre-wrap; /* сохраняем переносы строк и отступы */
+    font-family: monospace; /* устанавливаем моноширинный шрифт для кода */
+}
+}  
   
   
